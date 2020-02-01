@@ -9,8 +9,8 @@
 
 body {
   font-family: 'Lato', arial, sans-serif;
-  color: #434343;
-  background: #DAE3E7;
+  color: #a1a1a1;
+  background: #2c2f33;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,7 +19,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #778492;
+  color: #a1a1a1;
 }
 
 a {
@@ -107,8 +107,8 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 
 a.dotted-link {
-  border-bottom: 1px dotted #778492;
-  color: #778492;
+  border-bottom: 1px dotted #a1a1a1;
+  color: #a1a1a1;
 }
 
 a.dotted-link:hover {
@@ -120,8 +120,8 @@ a.dotted-link:hover {
 
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background: #23272a;
+  border-top: 10px solid #2c2f33;
 }
 
 .header .btn {
@@ -136,14 +136,14 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .name {
-  color: #49515a;
+  color: #a1a1a1;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 
 .header .profile-content .desc {
-  color: #778492;
+  color: #a1a1a1;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -169,7 +169,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .social a:hover {
-  background: #778492;
+  background: #a1a1a1;
 }
 
 .header .profile-content .social a .svg-inline--fa {
@@ -189,14 +189,14 @@ a.dotted-link:hover {
 }
 
 .section .section-inner {
-  background: #fff;
+  background: #23272a;
   padding: 30px;
 }
 
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #a1a1a1;
   font-size: 24px;
 }
 
@@ -226,7 +226,7 @@ a.dotted-link:hover {
 }
 
 .latest .item .title a {
-  color: #778492;
+  color: #a1a1a1;
 }
 
 .latest .item .title a:hover {
@@ -255,7 +255,7 @@ a.dotted-link:hover {
 
 .latest .featured .summary {
   margin-bottom: 30px;
-  color: #778492;
+  color: #a1a1a1;
 }
 
 .latest .featured img {
@@ -335,7 +335,7 @@ a.dotted-link:hover {
 }
 
 .projects .item .title a {
-  color: #778492;
+  color: #a1a1a1;
 }
 
 .projects .item .title a:hover {
@@ -540,7 +540,7 @@ a.dotted-link:hover {
 }
 
 .languages .item .title {
-  color: #778492;
+  color: #a1a1a1;
 }
 
 .languages .item .level {
@@ -567,7 +567,7 @@ a.dotted-link:hover {
 }
 
 .blog .item .title a {
-  color: #778492;
+  color: #a1a1a1;
 }
 
 .blog .item .title a:hover {
@@ -593,7 +593,7 @@ a.dotted-link:hover {
 }
 
 .list ul li a {
-  color: #778492;
+  color: #a1a1a1;
 }
 
 .list ul li a:hover {
@@ -613,7 +613,7 @@ a.dotted-link:hover {
 }
 
 .credits ul li a {
-  color: #778492;
+  color: #a1a1a1;
 }
 
 .credits ul li a .svg-inline--fa {
@@ -630,13 +630,13 @@ a.dotted-link:hover {
 
 .aside .subheading {
   font-size: 18px;
-  color: #545e69;
+  color: #a1a1a1;
 }
 
 /* ======= Footer ======= */
 
 .footer {
-  background: #32383e;
+  background: #23272a;
   color: #fff;
   padding: 10px 0;
 }
