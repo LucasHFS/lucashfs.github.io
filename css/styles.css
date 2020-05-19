@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #23272A;
+  color: rgba(114, 137, 218, 0.74);
   text-decoration: none;
   background-color: transparent;
 }
@@ -10046,7 +10046,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #23272A;
+  color: #7289DA;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
