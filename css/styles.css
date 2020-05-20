@@ -1985,6 +1985,13 @@ pre code {
 }
 .table-responsive > .table-bordered {
   border: 0;
+} 
+
+.form-control{
+  border: 1px solid lightgray !important;
+  border-radius: 5px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 
 .form-control {
