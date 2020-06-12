@@ -1,24 +1,27 @@
 (function() {
     var questions = [{
       question: "Quem se apaixonou primeiro?",
-      choices: ['Lucas', 'Emily'],
+      choices: ['O Noivo', 'A Noiva', 'Os 2', 'Nenhum'],
       correctAnswer: 0
     }, {
       question: "Quem deu o primeiro beijo?",
-      choices: ['Lucas', 'Emily'],
+      choices: ['O Noivo', 'A Noiva', 'Os 2', 'Nenhum'],
+
       correctAnswer: 1
     }, {
-      question: "What is 8*9?",
-      choices: [72, 99, 108, 134, 156],
+      question: "Quem gosta mais de comer?",
+      choices: ['O Noivo', 'A Noiva', 'Os 2', 'Nenhum'],
+
+      correctAnswer: 1
+    }, {
+      question: "Quem é mais caseiro?",
+      choices: ['O Noivo', 'A Noiva', 'Os 2', 'Nenhum'],
+
       correctAnswer: 0
     }, {
-      question: "What is 1*7?",
-      choices: [4, 5, 6, 7, 8],
-      correctAnswer: 3
-    }, {
-      question: "What is 8*8?",
-      choices: [20, 30, 40, 50, 64],
-      correctAnswer: 4
+      question: "Quem ama mais o outro?",
+      choices: ['O Noivo', 'A Noiva', 'Os 2', 'Nenhum'],
+      correctAnswer: 2
     }];
     
     var questionCounter = 0; //Tracks question number
@@ -40,7 +43,7 @@
       
       // If no user selection, progress is stopped
       if (isNaN(selections[questionCounter])) {
-        alert('Escolhe um primeiro bb, vai corre n kk!');
+        alert('Escolhe um primeiro bb, vai correr n kk!');
       } else {
 
         if(selections[questionCounter] === questions[questionCounter].correctAnswer){
@@ -168,8 +171,8 @@
         }
       }
       
-      score.append('You got ' + numCorrect + ' questions out of ' +
-                   questions.length + ' right!!!');
+      score.append('BB meu certou ' + numCorrect + ' perguntas de  ' +
+                   questions.length + ' !!!');
       return score;
     }
   })();

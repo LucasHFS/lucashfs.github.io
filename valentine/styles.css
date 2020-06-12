@@ -25,6 +25,29 @@ body, html{
     width: 650px;
 }
 
+#description-1{
+    margin-top: 150px;
+}
+
+#description-2{
+    margin-top: 130px;
+}
+
+#description-3{
+    margin-top: 150px;
+}
+
+#description-4{
+    margin-top: 150px;
+}
+
+#description-5{
+    margin-top: 200px; 
+}
+
+
+
+
 
 
 h2, h3{
@@ -38,15 +61,17 @@ h2, h3{
     width: 1400px !important;
     max-width: 1400px !important;
     margin: 0 auto;
-    background: #9D50BB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     padding-top: 15px !important;
 }
 
 .header-img{
-    width: 560px;
+    width: 1260px;
+    border-radius: 10px;
+    height: 766.2px;
 }
 
 .side{
@@ -92,6 +117,15 @@ h2, h3{
 
 #container7 {
     height: 600px;
+    padding-top: 100px;
     margin-bottom: 30px;
 }
 
+.container p {
+    text-align: justify;
+}
+
+
+.center{
+
+}
